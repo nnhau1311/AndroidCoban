@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Activity.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:paddingVertical="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MANAGER"
+            android:textColor="@color/black"
+            android:textSize="44dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/formLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnShowProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show "
+                app:backgroundTint="#850C0C" />
+
+            <Button
+                android:id="@+id/btnAddPro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add "
+                app:backgroundTint="#750C0C" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnExitHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Exit"
+            android:textColor="@color/white"
+            app:backgroundTint="#0B0B0B" />
+    </RelativeLayout>
+</LinearLayout>

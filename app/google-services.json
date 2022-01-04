@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1043265772339",
+    "project_id": "thicuoiki-beba1",
+    "storage_bucket": "thicuoiki-beba1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1043265772339:android:77b7045bbd727716933c46",
+        "android_client_info": {
+          "package_name": "com.example.a22_18069461_nguyenngochau"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1043265772339-6igd7p1f20l3ab8aqfvkj6q5dbeiqfrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8GoviSXwL2565wOV8l9ii_T1Nz30DH9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1043265772339-6igd7p1f20l3ab8aqfvkj6q5dbeiqfrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
